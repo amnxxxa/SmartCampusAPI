@@ -9,23 +9,27 @@ package com.example.smartcampusapi.model;
  * @author amnaa
  */
 public class Sensor {
-    private String id; // Unique identifier [cite: 71]
-    private String type; // e.g., "CO2", "Occupancy" [cite: 72]
-    private String status; // ACTIVE, MAINTENANCE, OFFLINE [cite: 74]
-    private double currentValue; // Most recent measurement [cite: 79]
-    private String roomId; // Link to the Room [cite: 79]
+    private String id; 
+    private String type; 
+    private String status; 
+    private double currentValue; 
+    private String roomId;
 
     public Sensor() {}
 
-    // Getters and Setters [cite: 82]
+    // Getters and Setters 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
+    
     public String getType() { return type; }
     public void setType(String type) { this.type = type; }
+    
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }
+    
     public double getCurrentValue() { return currentValue; }
     public void setCurrentValue(double currentValue) { this.currentValue = currentValue; }
+    
     public String getRoomId() { return roomId; }
     public void setRoomId(String roomId) { this.roomId = roomId; }
 }
