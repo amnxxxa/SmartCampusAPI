@@ -11,14 +11,14 @@ import java.util.List;
  * @author amnaa
  */
 public class Room {
-    private String id; // Unique identifier [cite: 53]
-    private String name; // Human-readable name [cite: 53]
-    private int capacity; // Maximum occupancy [cite: 54]
-    private List<String> sensorIds = new ArrayList<>(); // Collection of IDs [cite: 58]
+    private String id; // Unique identifier 
+    private String name; // Human-readable name 
+    private int capacity; // Maximum occupancy 
+    private List<String> sensorIds = new ArrayList<>(); // Collection of IDs 
 
-    public Room() {} // No-arg constructor for JSON conversion [cite: 42]
+    public Room() {} // No-arg constructor for JSON conversion
 
-    // Getters and Setters [cite: 42]
+    // Getters and Setters 
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
     public String getName() { return name; }
