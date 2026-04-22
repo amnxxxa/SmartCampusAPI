@@ -75,18 +75,15 @@ public class SensorResource {
         sensor.setCurrentValue(updatedData.getCurrentValue());
         sensor.setStatus(updatedData.getStatus());
 
-        // Also record a reading when value is updated via PUT
+        // record a reading when value is updated via PUT
         SensorReading reading = new SensorReading(sensorId, updatedData.getCurrentValue());
         DataStore.readings.add(reading);
 
         return Response.ok(sensor).build();
     }
 
-    // ---------------------------------------------------------------
-    // Part 4.1: SUB-RESOURCE LOCATOR — delegates to SensorReadingResource
-    // This is the correct pattern, NOT defining @GET directly here
-    // GET/POST /api/v1/sensors/{sensorId}/readings
-    // ---------------------------------------------------------------
+    // NOT defining @GET directly here
+    // GET/POST /api/v1/sensors/{sensorId}/readings(Part 4.1)
     @Path("/{sensorId}/readings")
     public SensorReadingResource getReadingResource(@PathParam("sensorId") String sensorId) {
         return new SensorReadingResource(sensorId);
