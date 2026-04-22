@@ -16,7 +16,7 @@ import java.util.Map;
  * @author amnaa
  */
 public class DataStore {
-   // Thread-safe maps to prevent race conditions [cite: 107, 209]
+   // Thread-safe maps to prevent race conditions
     public static Map<String, Room> rooms = new ConcurrentHashMap<>();
     public static Map<String, Sensor> sensors = new ConcurrentHashMap<>();
     public static List<SensorReading> readings = new java.util.concurrent.CopyOnWriteArrayList<>();
