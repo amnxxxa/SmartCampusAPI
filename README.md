@@ -2,7 +2,7 @@
 
 A Jakarta EE RESTful web service built with JAX-RS (Jersey 2.x) that manages campus rooms and environmental sensors.
 
-**Student:** [Fathima Amnaah Aakiff / w2120196]  
+**Student:** Fathima Amnaah Aakiff - w2120196  
 **Course:** Client Server Architecture  
 **Module:** RESTful Web Services Coursework
 
