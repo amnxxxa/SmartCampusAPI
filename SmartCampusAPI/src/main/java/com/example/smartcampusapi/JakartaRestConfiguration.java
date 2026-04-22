@@ -8,5 +8,5 @@ import javax.ws.rs.core.Application;
  */
 @ApplicationPath("/api/v1") 
 public class JakartaRestConfiguration extends Application {
-    // You leave this empty. The server will automatically scan for your Resource classes.
+    // we leave this empty. The server will automatically scan for your Resource classes.
 }
