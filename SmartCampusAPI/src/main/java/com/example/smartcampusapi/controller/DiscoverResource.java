@@ -43,7 +43,6 @@ public class DiscoverResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response triggerError() {
         // This simulates a severe server crash to test the GlobalExceptionMapper
-        // (Section 5.2)
         throw new RuntimeException("Simulated Database Connection Failure!");
     }
 }
