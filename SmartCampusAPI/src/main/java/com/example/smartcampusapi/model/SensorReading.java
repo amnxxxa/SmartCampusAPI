@@ -14,7 +14,7 @@ public class SensorReading {
     private String id;
     private String sensorId;
     private double value;
-    private long timestamp; // Epoch ms as required by spec
+    private long timestamp; // Epoch ms 
 
     public SensorReading() {
         this.id = UUID.randomUUID().toString();
@@ -30,6 +30,7 @@ public class SensorReading {
     public String getId() { return id; }
     public String getSensorId() { return sensorId; }
     public void setSensorId(String sensorId) { this.sensorId = sensorId; }
+    
     public double getValue() { return value; }
     public void setValue(double value) { this.value = value; }
     public long getTimestamp() { return timestamp; }
