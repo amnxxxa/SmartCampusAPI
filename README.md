@@ -7,9 +7,6 @@ Course: Client-Server Architectures (5COSC022W)
 
 University: University of Westminster (IIT)
 
-📺 Video Demonstration
-Watch the Postman Test Demonstration: [Link to your Video (OneDrive/YouTube)]
-
 The video showcases all 18 test cases running on a live Tomcat 9 server, with my student ID and clear verbal explanations.
 
 🛠 Technology Stack
