@@ -49,7 +49,7 @@ A professional Jakarta EE RESTful web service built with **JAX-RS (Jersey 2.x)**
 
 ---
 
-## 📡 Sample `curl` Commands
+##  Sample `curl` Commands
 
 Industry-standard CLI interactions for testing core resources:
 
@@ -118,7 +118,7 @@ SmartCampusAPI/
 
 ---
 
-## 📝 Conceptual Report
+##  Conceptual Report
 
 ---
 
