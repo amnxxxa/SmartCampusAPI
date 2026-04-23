@@ -4,7 +4,6 @@ A Jakarta EE RESTful web service built with JAX-RS (Jersey 2.x) that manages cam
 
 **Student:** Fathima Amnaah Aakiff - w2120196  
 **Course:** Client Server Architecture  
-**Module:** RESTful Web Services Coursework
 
 ---
 
@@ -320,6 +319,6 @@ SmartCampusAPI/
 │   │   └── ErrorResponse.java
 │   └── repository/
 │       └── DataStore.java                     # In-memory static HashMap storage
-├── SmartCampusAPI_Postman_Collection.json     # 15+ Postman test cases
+├── SmartCampusAPI_Postman_Collection.json     # 18 Postman test cases
 └── pom.xml
 ```
