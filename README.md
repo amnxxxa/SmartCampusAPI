@@ -47,6 +47,8 @@ A professional Jakarta EE RESTful web service built with **JAX-RS (Jersey 2.x)**
 5. **Testing:**  
    Import the `SmartCampusAPI_Postman_Collection.json` file into Postman and set the `baseUrl` variable to the address above.
 
+Note: This API is configured to run on port 8081 to avoid local conflicts with Tomcat 10. If 8081 is unavailable on your system, please adjust the Port settings in NetBeans Project Properties > Run.
+
 ---
 
 ##  Sample `curl` Commands
